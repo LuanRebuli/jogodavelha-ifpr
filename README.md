@@ -1,6 +1,6 @@
 # Jogo da Velha (Tic-Tac-Toe) 🕹️
 
-Este é um jogo da velha clássico implementado em Java, desenvolvido como um **trabalho acadêmico para o curso de Análise e Desenvolvimento de Sistemas (TADS) no IFPR**. Ele permite que você desafie um amigo ou teste suas habilidades contra uma inteligência artificial simples! ✨
+Este é um jogo da velha clássico implementado em Java, desenvolvido como um **trabalho acadêmico para o curso de Análise e Desenvolvimento de Sistemas (TADS) no IFPR**. Ele permite que você desafie um amigo ou teste suas habilidades contra uma inteligência artificial simples!
 
 ---
 
@@ -100,4 +100,4 @@ Este jogo é um marco no aprendizado do **curso de TADS no IFPR**, reforçando c
 
 ## 👨‍💻 Desenvolvido por
 
-[Luan Rebuli](https://github.com/LuanRebuli) ✨
+[Luan Rebuli](https://github.com/LuanRebuli) 
