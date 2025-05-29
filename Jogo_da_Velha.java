@@ -73,7 +73,7 @@ public class Jogo_da_Velha {
                     if(vezDoJogador) {
                         System.out.println("Jogador 1: Sua vez! Digite a posição (1-9):");
                         posicao = teclado.nextInt();
-                        if (verificaPosicao(tabuleiro, posicao) != 0) {  // <- Aqui passou o tabuleiro
+                        if (verificaPosicao(tabuleiro, posicao) != 0) { 
                             fazerJogada(tabuleiro, posicao, simboloJogador1);
                             if (verificarVitoria(tabuleiro, simboloJogador1)) {
                                 start = false;
@@ -85,9 +85,9 @@ public class Jogo_da_Velha {
                         }
                     } else {
                         System.out.println("Máquina: Sua vez!");
-                        posicao = random.nextInt(9) + 1; // Gera um número aleatório de 1 a 9
-                        while (verificaPosicao(tabuleiro, posicao) == 0) { // Verifica se a posição é válida
-                            posicao = random.nextInt(9) + 1; // Gera outro número se a posição não for válida
+                        posicao = random.nextInt(9) + 1;
+                        while (verificaPosicao(tabuleiro, posicao) == 0) {
+                            posicao = random.nextInt(9) + 1;
                         }
                         jogadaMaquina(tabuleiro, posicao, simboloMaquina);
                         if (verificarVitoria(tabuleiro, simboloMaquina)) {
